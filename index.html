@@ -7,31 +7,45 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!--Estilo do icone menu hamburguer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title> BioCode Jr. </title>
 </head>
 <body>
 
     <header>
-        <p class="logo_name"> BIOCODE JR </p>
-        <nav class="navbar">
-            <ul class="nav_links">
-                <li> <a href="#"> Início </a> </li>
-                <li> <a href="#"> Quem somos </a> </li>
-                <li> <a href="#"> Serviços </a> </li>
-                <li> <a href="#"> Cases </a> </li>
-                <li> <a href="#"> Portfólio </a> </li>
-                <li> <a href="#"> Contato </a> </li>
-            </ul>
+        <nav class="navtop">
+            <div id="navbar">
+                <div id="navlogo">
+                    <img src="logo-biocodejr.svg" id="navicon" alt="">
+                    <a href="#home" class="active"> BIOCODE JR </a>
+                </div>
+                <a href="#" class="icon" onclick="displayLinks()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="navlinks">
+                <ul class="links">
+                    <li> <a href="#home"> Início </a> </li>
+                    <li> <a href="#about"> Quem somos </a> </li>
+                    <li> <a href="#services"> Serviços </a> </li>
+                    <li> <a href="#cases"> Cases </a> </li>
+                    <li> <a href="#portfolio"> Portfólio </a> </li>
+                    <li> <a href="#contact"> Contato </a> </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <img src="logo-biocodejr.png" alt="logo" class="logo">
-        <div id="main_content">
+        <img src="biocodejr-hero.svg" alt="logo" class="logo">
+        <div id="maincontent">
             <p> Atuamos nas áreas de informática em saúde e bioinformática </p>
             <button class="btn"> Conheça mais </button>
         </div>
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>

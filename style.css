@@ -6,62 +6,88 @@
     padding: 0;
 }
 
-header {
+.navtop {
+    background-color: #071A3B;
+    padding: 5px;
+}
+
+.navtop a {
+    text-decoration: none;
+}
+
+.navtop #navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: space-between;
 }
 
-.logo_name {
+.navtop #navlogo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navtop #navicon {
+    width: 5em;
+    height: 5em;
+}
+
+.active {
     font-family: 'Ruda', sans-serif;
-    font-size: 32px;
+    font-size: 1.5em;
     font-weight: 900;
-    color: #071A3B;
+    color: #FFF;
 }
 
-.nav_links {
+.navtop a.icon {
+    color: #FFF;
+    display: block;
+    font-size: 2em;
+    padding: 0em 0.7em 0em;
+}
+
+.navtop #navlinks {
+    display: none;
+}
+
+.links {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav_links li {
-    display: inline-block;
-    padding: 0px 10px;
+.links li {
+    padding: 0.5em 0em;
 }
 
-.nav_links li a {
+.links li a {
     font-family: 'Ruda', sans-serif;
     font-weight: normal;
-    font-size: 24px;
-    text-decoration: none;
-    color: #071A3B;
+    font-size: 1em;
+    color: #FFF;
     cursor: pointer;
     transition: 0.25s;
 }
 
-.nav_links li a:hover {
+.links li a:hover {
     color: #E11955;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5%;
+    flex-direction: column;
+    padding: 10% 10%;
 }
 
-#main_content {
-    width: 30%;
+main #maincontent {
+    text-align: center;
     font-family: 'Ruda', sans-serif;
+    font-size: 1.5em;
+    margin: 0.5em 0em;
 }
 
-#main_content p {
-    font-size: 32px;
-}
-
-.btn {
+main .btn {
     margin-top: 10px;
     padding: 15px;
 
@@ -71,12 +97,14 @@ main {
     background-color: #071A3B;
     color: #FFF;
 
-    font-size: 24px;
+    font-size: 1em;
 
     cursor: pointer;
     transition: 0.25s;
 }
 
+/* Deixar para a versao desktop
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+*/
