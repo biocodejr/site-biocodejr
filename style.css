@@ -108,3 +108,37 @@ main .btn {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 */
+
+footer {
+    background-color: #071A3B;
+}
+
+footer #footericons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #footericon {
+    width: 125px;
+    height: 125px;
+}
+
+footer #social-icons {
+    padding: 0% 10%;
+}
+
+footer a.icon {
+    font-size: 2em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 2.5px;
+}
+
+footer #copyright {
+    font-size: 0.8em;
+    font-family: 'Ruda', sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 5% 0%;
+}
