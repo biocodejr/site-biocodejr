@@ -113,6 +113,140 @@ main .btn {
     transition: 0.25s;
 }
 
+#quemsomos{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10%;
+    
+
+}
+
+#quemsomos h1{
+    font-family: 'Ruda', sans-serif;
+    color: #071A3B;   
+    font-family: Ruda;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+#quemsomos p#descricao{
+    font-family: Ruda;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+summary{
+    background: #071A3B;    
+    
+    background: #071A3B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 22px;
+    margin-top: 23px;
+    box-sizing:20px;    
+    color: white;
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 53px;
+    margin-right: 20px;
+    
+
+}
+#quemsomos .detalhes{
+    
+    background: #071A3B;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+#quemsomos .textquemsomos{    
+    color: white;   
+    text-align: justify;
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;    
+    word-wrap: normal;
+    padding: 15px;
+}
+#servicos {
+    display: grid;
+    flex-direction: column;
+    padding: 10% 10%;
+
+}
+
+#servicos h1{
+    font-family: 'Ruda', sans-serif;
+    color: #071A3B;   
+    font-family: Ruda;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    
+
+}
+#servicos h3{
+    font-family: 'Ruda', sans-serif;
+    color: #071A3B;
+    height: 30px;
+    width: 216px;
+
+
+}
+
+
+#servicos div{
+    font-family: 'Ruda', sans-serif;
+    color: white;
+    background-color: #071A3B;
+    Width:300px;
+    Height:207px;
+   
+    border-radius: 10px;
+    
+}
+#servicos .titulo{
+    font-family: 'Ruda', sans-serif;
+    color: rgb(255, 255, 255);
+    Width:230,91px;
+    Height:90px;
+    Top:1651px;
+    Left:75px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 24px;
+    font-size: 22px;    
+    margin-bottom: 4%;
+    font-weight: bold;
+    vertical-align: top;
+
+}
+#servicos p.texto {
+    font-family: 'Ruda', sans-serif;
+    color: rgb(255, 255, 255);
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 28px;
+    Line-height: 143.8%;
+    text-align: Center;
+    Vertical-align: Top;
+}
+
+
 /* Deixar para a versao desktop
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
