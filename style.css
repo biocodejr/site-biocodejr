@@ -1,251 +1,334 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
-    width: 90%;
-    margin: auto;
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 90%;
+  margin: auto;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .navtop {
-    background-color: #071A3B;
-    padding: 5px;
+  background-color: #071a3b;
+  padding: 5px;
 }
 
 .navtop a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navtop #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navtop #navlogo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .navtop #navicon {
-    width: 5em;
-    height: 5em;
+  width: 5em;
+  height: 5em;
 }
 
 .active {
-    font-family: 'Ruda', sans-serif;
-    font-size: 1.5em;
-    font-weight: 900;
-    color: #FFF;
+  font-family: "Ruda", sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #fff;
 }
 
 .navtop a.icon {
-    color: #FFF;
-    display: block;
-    font-size: 2em;
-    padding: 0em 0.7em 0em;
+  color: #fff;
+  display: block;
+  font-size: 2em;
+  padding: 0em 0.7em 0em;
 }
 
 .navtop #navlinks {
-    display: none;
+  display: none;
 }
 
 .links {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .links li {
-    padding: 0.5em 0em;
+  padding: 0.5em 0em;
 }
 
 .links li a {
-    font-family: 'Ruda', sans-serif;
-    font-weight: normal;
-    font-size: 1em;
-    color: #FFF;
-    cursor: pointer;
-    transition: 0.25s;
+  font-family: "Ruda", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .links li a:hover {
-    color: #E11955;
+  color: #e11955;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    padding: 10% 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10%;
 }
 
 main #maincontent {
-    text-align: center;
-    font-family: 'Ruda', sans-serif;
-    font-size: 1.5em;
-    margin: 0.5em 0em;
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  font-size: 1.5em;
+  margin: 0.5em 0em;
 }
 
 main .btn {
-    margin-top: 10px;
-    padding: 15px;
+  margin-top: 10px;
+  padding: 15px;
 
-    border-radius: 10px;
-    border: none;
+  border-radius: 10px;
+  border: none;
 
-    background-color: #071A3B;
-    color: #FFF;
+  background-color: #071a3b;
+  color: #fff;
 
-    font-size: 1em;
+  font-size: 1em;
 
-    cursor: pointer;
-    transition: 0.25s;
+  cursor: pointer;
+  transition: 0.25s;
 }
 
-#quemsomos{
-    
-    display: flex;
-    flex-direction: column;
-    padding: 10% 10%;
-    
-
+#quemsomos {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10%;
 }
 
-#quemsomos h1{
-    font-family: 'Ruda', sans-serif;
-    color: #071A3B;   
-    font-family: Ruda;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: -1px;
-    text-align: left;
+#quemsomos h1 {
+  font-family: "Ruda", sans-serif;
+  color: #071a3b;
+  font-family: Ruda;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: left;
 }
-#quemsomos p#descricao{
-    font-family: Ruda;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: left;
 
+#quemsomos p#descricao {
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-summary{
-    background: #071A3B;    
-    
-    background: #071A3B;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-bottom: 22px;
-    margin-top: 23px;
-    box-sizing:20px;    
-    color: white;
-    font-family: Ruda;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 53px;
-    margin-right: 20px;
-    
 
+summary {
+  background: #071a3b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 22px;
+  margin-top: 23px;
+  box-sizing: 20px;
+  color: white;
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 53px;
+  margin-right: 20px;
 }
-#quemsomos .detalhes{
-    
-    background: #071A3B;
-    border-radius: 10px;
-    margin-top: -20px;
-    margin-right: 20px;
+
+#quemsomos .detalhes {
+  background: #071a3b;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-right: 20px;
 }
-#quemsomos .textquemsomos{    
-    color: white;   
-    text-align: justify;
-    font-family: Ruda;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;    
-    word-wrap: normal;
-    padding: 15px;
+
+#quemsomos .textquemsomos {
+  color: white;
+  text-align: justify;
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  word-wrap: normal;
+  padding: 15px;
 }
+
+#quemsomos .slideshow-container {
+  margin: auto;
+  position: relative;
+}
+
+#quemsomos .memebersSlides {
+  display: none;
+}
+
+#quemsomos .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#quemsomos .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#quemsomos .profilePicture {
+  position: relative;
+  left: 50%;
+  margin: 1.5em auto 1em -3.5em;
+  width: 7em;
+  height: auto;
+}
+
+#quemsomos .textName,
+.textRole {
+  font-family: "Ruda", sans-serif;
+  color: #f2f2f2;
+  font-weight: normal;
+  font-size: 0.7em;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.4em;
+}
+
+#quemsomos .textRole {
+  padding-bottom: 1.5em;
+}
+
+#quemsomos .dot {
+  cursor: pointer;
+  height: 0.6em;
+  width: 0.6em;
+  margin: 0 2px 5%;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#quemsomos .active,
+.dot:hover {
+  height: 0.4em;
+  width: 0.4em;
+  background-color: white;
+}
+
+#quemsomos .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #servicos {
-    display: grid;
-    flex-direction: column;
-    padding: 10% 10%;
-
+  display: grid;
+  flex-direction: column;
+  padding: 10% 10%;
 }
 
-#servicos h1{
-    font-family: 'Ruda', sans-serif;
-    color: #071A3B;   
-    font-family: Ruda;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: -1px;
-    
-
+#servicos h1 {
+  font-family: "Ruda", sans-serif;
+  color: #071a3b;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
 }
-#servicos h3{
-    font-family: 'Ruda', sans-serif;
-    color: #071A3B;
-    height: 30px;
-    width: 216px;
-
-
+#servicos h3 {
+  font-family: "Ruda", sans-serif;
+  color: #071a3b;
+  height: 30px;
+  width: 216px;
 }
 
+#servicos div {
+  font-family: "Ruda", sans-serif;
+  color: white;
+  background-color: #071a3b;
+  width: 300px;
+  height: 207px;
 
-#servicos div{
-    font-family: 'Ruda', sans-serif;
-    color: white;
-    background-color: #071A3B;
-    Width:300px;
-    Height:207px;
-   
-    border-radius: 10px;
-    
+  border-radius: 10px;
 }
-#servicos .titulo{
-    font-family: 'Ruda', sans-serif;
-    color: rgb(255, 255, 255);
-    Width:230,91px;
-    Height:90px;
-    Top:1651px;
-    Left:75px;
-    text-align: center;
-    letter-spacing: -1px;
-    line-height: 24px;
-    font-size: 22px;    
-    margin-bottom: 4%;
-    font-weight: bold;
-    vertical-align: top;
-
+#servicos .titulo {
+  font-family: "Ruda", sans-serif;
+  color: rgb(255, 255, 255);
+  width: 230, 91px;
+  height: 90px;
+  top: 1651px;
+  left: 75px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 24px;
+  font-size: 22px;
+  margin-bottom: 4%;
+  font-weight: bold;
+  vertical-align: top;
 }
 #servicos p.texto {
-    font-family: 'Ruda', sans-serif;
-    color: rgb(255, 255, 255);
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 28px;
-    Line-height: 143.8%;
-    text-align: Center;
-    Vertical-align: Top;
+  font-family: "Ruda", sans-serif;
+  color: rgb(255, 255, 255);
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 28px;
+  line-height: 143.8%;
+  text-align: Center;
+  vertical-align: Top;
 }
-
 
 /* Deixar para a versao desktop
 .btn:hover {
@@ -254,77 +337,81 @@ summary{
 */
 
 section {
-    padding: 10%;
+  padding: 10%;
 }
 
-section h1, p, ul {
-    font-family: 'Ruda', sans-serif;
-    color: #071A3B;
+section h1,
+p,
+ul {
+  font-family: "Ruda", sans-serif;
+  color: #071a3b;
 }
 
 section p {
-    padding: 5px;
-    line-height: 1.5em;
-    padding: 10px 2.5px;
+  padding: 5px;
+  line-height: 1.5em;
+  padding: 10px 2.5px;
 }
 
 section ul {
-    list-style: none;
+  list-style: none;
 }
 
-section ul, li {
-    padding: 5px 2px;
+section ul,
+li {
+  padding: 5px 2px;
 }
 
-form input, textarea {
-    width: 100%;
-    padding: 5%;
-    margin: 2.5% 0;
+form input,
+textarea {
+  width: 100%;
+  padding: 5%;
+  margin: 2.5% 0;
 
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1em;
 
-    border: solid 1px #071A3B;
-    border-radius: 10px;
+  border: solid 1px #071a3b;
+  border-radius: 10px;
 }
 
 form #btn-submit {
-    font-family: 'Ruda', sans-serif;
-    font-size: 1em;
-    color: #FFF;
-    background-color: #071A3B;
+  font-family: "Ruda", sans-serif;
+  font-size: 1em;
+  color: #fff;
+  background-color: #071a3b;
 }
 
 footer {
-    background-color: #071A3B;
+  background-color: #071a3b;
 }
 
 footer #footericons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer #footericon {
-    width: 125px;
-    height: 125px;
+  width: 125px;
+  height: 125px;
 }
 
 footer #social-icons {
-    padding: 0% 10%;
+  padding: 0% 10%;
 }
 
 footer a.icon {
-    font-size: 2em;
-    text-decoration: none;
-    color: #FFF;
-    padding: 2.5px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+  padding: 2.5px;
 }
 
 footer #copyright {
-    font-size: 0.8em;
-    font-family: 'Ruda', sans-serif;
-    color: #FFF;
-    text-align: center;
-    padding: 5% 0%;
+  font-size: 0.8em;
+  font-family: "Ruda", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0%;
 }
