@@ -1,18 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { background: #071A3B; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-        img {display: block; margin-left: auto; margin-right: auto; width: 25%}
-    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/parts/header.css" />
+    <link rel="stylesheet" href="./styles/parts/banner.css" />
+    <link rel="stylesheet" href="./styles/parts/about.css" />
+    <link rel="stylesheet" href="./styles/parts/services.css" />
+    <link rel="stylesheet" href="./styles/parts/contact.css" />
+    <link rel="stylesheet" href="./styles/parts/footer.css" />
+
+    <!--Estilo do icone menu hamburguer-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>BioCode Jr.</title>
-</head>
-<body>
-    <div class="center">
-        <img src="images/logo-biocodejr-name.svg" alt="Logo BioCodeJr" class="center">
-    </div>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navtop">
+        <div id="navbar">
+          <div id="navlogo">
+            <img src="./images/logo-biocodejr.svg" id="navicon" alt="" />
+            <a href="#home" class="active"> BIOCODE JR </a>
+          </div>
+          <div id="hamburguer">
+            <input
+              type="checkbox"
+              href="#"
+              id="hamburguerIcon"
+              onclick="displayLinks()"
+            />
+            <label for="hamburguerIcon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+        </div>
+        <div id="navlinks">
+          <ul class="links">
+            <li><a href="#home"> Início </a></li>
+            <li><a href="#about"> Quem somos </a></li>
+            <li><a href="#services"> Serviços </a></li>
+            <li><a href="#cases"> Cases </a></li>
+            <li><a href="#portfolio"> Portfólio </a></li>
+            <li><a href="#contact"> Contato </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <img src="./images/biocodejr-hero.svg" alt="logo" class="logo" />
+        <div id="maincontent">
+          <p>Atuamos nas áreas de informática em saúde e bioinformática</p>
+          <button class="btn">Conheça mais</button>
+        </div>
+      </section>
+
+      <hr id="divider" />
+
+      <section id="about">
+        <h1>Quem somos?</h1>
+        <p id="descricao">
+          Somos a empresa júnior do curso de Informática Biomédica da
+          Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA).
+        </p>
+
+        <details id="history">
+          <summary>História</summary>
+          <div class="detalhes">
+            <p class="textquemsomos">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              corrupti consequatur quam, molestias exercitationem, nemo
+              perspiciatis aliquam totam eos porro autem, suscipit aliquid?
+              Voluptates ad totam sed reiciendis ipsam obcaecati?
+            </p>
+          </div>
+        </details>
+        <details id="members">
+          <summary>Membros</summary>
+          <div class="detalhes">
+            <div class="slideshow-container">
+              <div class="memebersSlides fade">
+                <img src="./images/members/Foto.png" class="profilePicture" />
+                <p class="textName">Nome Sobrenome1</p>
+                <p class="textRole">Cargo1</p>
+              </div>
+
+              <div class="memebersSlides fade">
+                <img src="./images/members/Foto.png" class="profilePicture" />
+                <p class="textName">Nome Sobrenome2</p>
+                <p class="textRole">Cargo2</p>
+              </div>
+
+              <div class="memebersSlides fade">
+                <img src="./images/members/Foto.png" class="profilePicture" />
+                <p class="textName">Nome Sobrenome3</p>
+                <p class="textRole">Cargo3</p>
+              </div>
+
+              <div class="memebersSlides fade">
+                <img src="./images/members/Foto.png" class="profilePicture" />
+
+                <p class="textName">Nome Sobrenome4</p>
+                <p class="textRole">Cargo4</p>
+              </div>
+
+              <div class="memebersSlides fade">
+                <img src="./images/members/Foto.png" class="profilePicture" />
+
+                <p class="textName">Nome Sobrenome5</p>
+                <p class="textRole">Cargo5</p>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+          </div>
+        </details>
+        <details id="mission">
+          <summary>Missão</summary>
+          <div class="detalhes">
+            <p class="textquemsomos">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              corrupti consequatur quam, molestias exercitationem, nemo
+              perspiciatis aliquam totam eos porro autem, suscipit aliquid?
+              Voluptates ad totam sed reiciendis ipsam obcaecati?
+            </p>
+          </div>
+        </details>
+        <details id="vision">
+          <summary>Visão</summary>
+          <div class="detalhes">
+            <p class="textquemsomos">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              corrupti consequatur quam, molestias exercitationem, nemo
+              perspiciatis aliquam totam eos porro autem, suscipit aliquid?
+              Voluptates ad totam sed reiciendis ipsam obcaecati?
+            </p>
+          </div>
+        </details>
+        <details id="values">
+          <summary>Valores</summary>
+          <div class="detalhes">
+            <p class="textquemsomos">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              corrupti consequatur quam, molestias exercitationem, nemo
+              perspiciatis aliquam totam eos porro autem, suscipit aliquid?
+              Voluptates ad totam sed reiciendis ipsam obcaecati?
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <hr id="divider" />
+
+      <section id="services">
+        <h1>Serviços</h1>
+        <h3>Informática em saúde</h3>
+        <div id="eHealth">
+          <div class="card-services">
+            <h2 class="title">Sistemas de informação em saúde</h2>
+            <p class="text">
+              Criação de sistemas como o Prontuário Eletrônico do Paciente (PEP)
+            </p>
+          </div>
+        </div>
+        <h3>Bioinformática</h3>
+        <div id="bioinfo">
+          <div class="card-services">
+            <h2 class="title">Consultoria</h2>
+            <p class="text">
+              Elaboração de protocolos para resolver desafios da bioinformática,
+              baseando-se nos objetivos do cliente e nos recursos disponíveis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr id="divider" />
+
+      <section id="contact">
+        <div id="contact-info">
+          <h1>Endereço</h1>
+          <p>
+            R. Sarmento Leite, 245 - Centro Histórico, Porto Alegre - RS,
+            90050-170
+          </p>
+          <h1>Contatos</h1>
+          <ul>
+            <li>Email: biocodejr@ufcspa.edu.br</li>
+            <li>Instagram: @biocodejr</li>
+            <li>Linkedin:</li>
+          </ul>
+        </div>
+        <form action="" class="form">
+          <input type="text" name="name" id="name" placeholder="Seu nome*" />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            ,
+            placeholder="Seu e-mail*"
+          />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Assunto*"
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Sua mensagem*"
+          ></textarea>
+          <input type="submit" value="Enviar mensagem" id="btn-submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footericons">
+        <img src="./images/logo-biocodejr-name.svg" alt="" id="footericon" />
+        <div id="social-icons">
+          <a href="#" class="icon" id="instagram-icon">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#" class="icon" id="">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <p id="copyright">© 2021 BIOCODE JR. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

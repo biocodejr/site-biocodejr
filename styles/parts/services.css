@@ -1,0 +1,47 @@
+#services {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Ruda", sans-serif;
+}
+
+#services h3 {
+  font-size: 1rem;
+  font-style: bold;
+
+  color: var(--dark-blue);
+
+  text-align: left;
+
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+#services div {
+  color: white;
+  background-color: var(--dark-blue);
+  width: 16rem;
+  height: auto;
+
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 20px 20px 0;
+}
+
+.text {
+  font-size: 0.9rem;
+  line-height: 1.5em;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
