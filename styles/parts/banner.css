@@ -1,0 +1,35 @@
+#banner {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10%;
+}
+
+#maincontent {
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+  margin: 1em 0em;
+}
+
+.btn {
+  margin-top: 1em;
+  padding: 15px;
+
+  border-radius: 10px;
+  border: none;
+
+  background-color: var(--dark-blue);
+  color: #fff;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+/* Deixar para a versao desktop
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+*/

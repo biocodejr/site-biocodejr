@@ -1,0 +1,121 @@
+.navtop {
+  background-color: var(--dark-blue);
+  padding: 5px;
+  font-family: "Ruda", sans-serif;
+}
+
+.navtop a {
+  text-decoration: none;
+}
+
+.navtop #navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navtop #navlogo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navtop #navicon {
+  width: 5em;
+  height: 5em;
+}
+
+.active {
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #fff;
+}
+
+.navtop #hamburguer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+  height: 5em;
+  width: 5em;
+}
+
+.navtop #hamburguerIcon {
+  opacity: 0;
+  position: absolute;
+}
+
+.navtop label {
+  position: relative;
+  display: block;
+  height: 10%;
+  width: 40%;
+  top: -5px;
+}
+
+.navtop label span {
+  position: absolute;
+  display: block;
+  height: 0.28em;
+  width: 1.8em;
+  border-radius: 2em;
+  background: #fff;
+  transition: 0.25s ease-in-out;
+}
+
+.navtop label span:nth-child(1) {
+  top: 0;
+}
+
+.navtop label span:nth-child(2) {
+  top: 8px;
+}
+
+.navtop label span:nth-child(3) {
+  top: 16px;
+}
+
+.navtop #hamburguerIcon:checked + label span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+.navtop #hamburguerIcon:checked + label span:nth-child(2) {
+  opacity: 0;
+}
+
+.navtop #hamburguerIcon:checked + label span:nth-child(3) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.navtop #navlinks {
+  display: none;
+}
+
+.navtop #navlinks {
+  display: none;
+}
+
+.links {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  padding: 0.5em 0em;
+}
+
+.links li a {
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.links li a:hover {
+  color: var(--pink);
+}

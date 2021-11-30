@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--dark-blue);
+}
+
+footer #footericons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer #footericon {
+  width: 125px;
+  height: 125px;
+}
+
+footer #social-icons {
+  padding: 0% 10%;
+}
+
+footer a.icon {
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+  padding: 2.5px;
+}
+
+footer #copyright {
+  font-size: 0.8em;
+  font-family: "Ruda", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0%;
+}

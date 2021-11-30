@@ -1,0 +1,146 @@
+#about {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Ruda", sans-serif;
+}
+
+#descricao {
+  font-size: 1rem;
+  font-style: normal;
+  color: var(--dark-blue);
+  text-align: left;
+  line-height: 1.5em;
+  margin-top: 0.5rem;
+}
+
+summary { 
+  /*list-style: none;*/
+
+  background: var(--dark-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  outline: 0; 
+  gap: 0;
+  
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 1.5rem;
+  
+  color: white;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.detalhes {
+  background: var(--dark-blue);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-right: 20px;
+}
+
+.textquemsomos {
+  color: white;
+  text-align: left;
+  font-style: normal;
+  font-size: 1rem;  
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+.slideshow-container {
+  margin: auto;
+  position: relative;
+}
+
+.memebersSlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.profilePicture {
+  position: relative;
+  left: 50%;
+  margin: 1.5em auto 1em -3.5em;
+  width: 7em;
+  height: auto;
+}
+
+.textName,
+.textRole {
+  color: #f2f2f2;
+  font-weight: normal;
+  font-size: 0.7em;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.4em;
+}
+
+.textRole {
+  padding-bottom: 1.5em;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.6em;
+  width: 0.6em;
+  margin: 0 2px 5%;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#about .active,
+.dot:hover {
+  height: 0.4em;
+  width: 0.4em;
+  background-color: white;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
