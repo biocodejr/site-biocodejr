@@ -85,6 +85,7 @@ summary {
   margin: 1.5em auto 1em -3.5em;
   width: 7em;
   height: auto;
+  border-radius: 100%;
 }
 
 .textName,
