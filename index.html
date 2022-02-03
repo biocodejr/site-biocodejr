@@ -48,8 +48,8 @@
             <li><a href="#home"> Início </a></li>
             <li><a href="#about"> Quem somos </a></li>
             <li><a href="#services"> Serviços </a></li>
-            <li><a href="#cases"> Cases </a></li>
-            <li><a href="#portfolio"> Portfólio </a></li>
+            <!--<li><a href="#cases"> Cases </a></li>-->
+            <!--<li><a href="#portfolio"> Portfólio </a></li>-->
             <li><a href="#contact"> Contato </a></li>
           </ul>
         </div>
@@ -78,10 +78,11 @@
           <summary>História</summary>
           <div class="detalhes">
             <p class="textquemsomos">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-              corrupti consequatur quam, molestias exercitationem, nemo
-              perspiciatis aliquam totam eos porro autem, suscipit aliquid?
-              Voluptates ad totam sed reiciendis ipsam obcaecati?
+              Nascemos da vontade de preencher uma área ainda pouco explorada 
+              no mercado de trabalho, mas com um potencial enorme nos próximos anos.
+              Aspiramos tornar estudantes em profissionais qualificados nas áreas interdisciplinares
+              trabalhadas durante a graduação de Informática Biomédica, 
+              como a Biotecnologia, Bioinformática e Telessaúde.
             </p>
           </div>
         </details>
@@ -234,21 +235,22 @@
 
       <section id="services">
         <h1>Serviços</h1>
-        <h3>Informática em saúde</h3>
+        <!--<h3>Informática em saúde</h3>-->
         <div id="eHealth">
           <div class="card-services">
-            <h2 class="title">Sistemas de informação em saúde</h2>
+            <h2 class="title"> Informática em saúde </h2>
             <p class="text">
-              Criação de sistemas como o Prontuário Eletrônico do Paciente (PEP)
+              Consultoria e desenvolvimento de sistemas, desde sites
+              instituicionais até sistemas de registro eletrônico em saúde (S-RES).
             </p>
           </div>
         </div>
-        <h3>Bioinformática</h3>
+        <!--<h3>Bioinformática</h3>-->
         <div id="bioinfo">
           <div class="card-services">
-            <h2 class="title">Consultoria</h2>
+            <h2 class="title"> Bioinformática </h2>
             <p class="text">
-              Elaboração de protocolos para resolver desafios da bioinformática,
+              Elaboração de protocolos e soluções de bioinformática,
               baseando-se nos objetivos do cliente e nos recursos disponíveis.
             </p>
           </div>
@@ -271,20 +273,22 @@
             <li>Linkedin:</li>
           </ul>
         </div>
-        <form action="" class="form">
-          <input type="text" name="name" id="name" placeholder="Seu nome*" />
+        <form action="https://formsubmit.co/biocodejr@ufcspa.edu.br" method="POST" class="form">
+          <input type="text" name="name" id="name" placeholder="Seu nome*" required/>
           <input
             type="text"
             name="email"
             id="email"
             ,
             placeholder="Seu e-mail*"
+            required
           />
           <input
             type="text"
             name="subject"
             id="subject"
             placeholder="Assunto*"
+            required
           />
           <textarea
             name="message"
@@ -292,6 +296,7 @@
             cols="30"
             rows="10"
             placeholder="Sua mensagem*"
+            required
           ></textarea>
           <input type="submit" value="Enviar mensagem" id="btn-submit" />
         </form>

@@ -21,7 +21,7 @@ li {
 form input,
 textarea {
   width: 100%;
-  padding: 5%;
+  padding: 2.5%;
   margin: 2.5% 0;
 
   font-family: "Source Code Pro", monospace;
@@ -42,4 +42,10 @@ form #btn-submit {
   font-size: 1em;
   color: #fff;
   background-color: var(--dark-blue);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+form #btn-submit:hover {
+  background-color: rgba(7, 26, 59, 0.90);
 }

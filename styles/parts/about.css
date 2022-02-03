@@ -30,6 +30,13 @@ summary {
   color: white;
   font-style: normal;
   font-size: 1rem;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+summary:hover {
+  color: var(--pink)
 }
 
 .detalhes {

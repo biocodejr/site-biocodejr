@@ -1,8 +1,13 @@
 #services {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   font-family: "Ruda", sans-serif;
+}
+
+#services div {
+  margin-top: 1em;
 }
 
 #services h3 {
