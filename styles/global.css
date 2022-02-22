@@ -35,6 +35,12 @@ section {
   padding: 10%;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 
 /* RESPONSIVIDADE
 @media(max-width:1390px) {

@@ -31,3 +31,23 @@ footer #copyright {
   text-align: center;
   padding: 5% 0%;
 }
+
+@media screen and (min-width: 768px) {
+  footer #footericon {
+    width: 150px;
+    height: 150px;
+  }
+
+  footer #social-icons {
+    padding: 0% 5%;
+  }
+
+  footer a.icon {
+    font-size: 2.5em;   
+  }
+
+  footer #copyright {
+    font-size: 1em;
+    padding: 0% 0% 2% 0%;
+  }
+}

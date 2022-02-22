@@ -50,7 +50,7 @@
             <li><a href="#services"> Serviços </a></li>
             <!--<li><a href="#cases"> Cases </a></li>-->
             <!--<li><a href="#portfolio"> Portfólio </a></li>-->
-            <li><a href="#contact"> Contato </a></li>
+            <li><a href="#contact" id="contact-link"> Contato </a></li>
           </ul>
         </div>
       </nav>
@@ -64,244 +64,244 @@
           <button class="btn">Conheça mais</button>
         </div>
       </section>
-
-      <hr id="divider" />
-
-      <section id="about">
-        <h1>Quem somos?</h1>
-        <p id="descricao">
-          Somos a empresa júnior do curso de Informática Biomédica da
-          Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA).
-        </p>
-
-        <details id="history">
-          <summary>História</summary>
-          <div class="detalhes">
-            <p class="textquemsomos">
-              Nascemos da vontade de preencher uma área ainda pouco explorada 
-              no mercado de trabalho, mas com um potencial enorme nos próximos anos.
-              Aspiramos tornar estudantes em profissionais qualificados nas áreas interdisciplinares
-              trabalhadas durante a graduação de Informática Biomédica, 
-              como a Biotecnologia, Bioinformática e Telessaúde.
-            </p>
-          </div>
-        </details>
-        <details id="members">
-          <summary>Membros</summary>
-          <div class="detalhes">
-            <div class="slideshow-container">
-              <div class="memebersSlides fade">
-                <img src="./images/members/guilherme-menezes.jpg" class="profilePicture" />
-                <p class="textName"> Guilherme Menezes </p>
-                <p class="textRole"> Presidente </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/caroline-bernich.jpg" class="profilePicture" />
-                <p class="textName"> Caroline Bernich </p>
-                <p class="textRole"> Vice-presidente </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/handriel-scheffer.jpg" class="profilePicture" />
-                <p class="textName"> Handriel Scheffer </p>
-                <p class="textRole"> Diretor Financeiro </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/alexandre-lemos.jpg" class="profilePicture" />
-                <p class="textName"> Alexandre Lemos </p>
-                <p class="textRole"> Diretor Administrativo </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/mariana-koerber.jpg" class="profilePicture" />
-                <p class="textName"> Mariana Koerber </p>
-                <p class="textRole"> Diretora de Marketing </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/leticia-godoi.jpg" class="profilePicture" />
-                <p class="textName"> Letícia Godoi </p>
-                <p class="textRole"> Diretora de Pessoas e Qualidade </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/vitoria-torrescasana.jpg" class="profilePicture" />
-                <p class="textName"> Vitória Torrescasana </p>
-                <p class="textRole"> Diretora de Projetos (Bioinformática) </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/rodrigo-duarte.jpg" class="profilePicture" />
-                <p class="textName"> Rodrigo Duarte </p>
-                <p class="textRole"> Diretor de Projetos (E-saúde) </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/roberto-meyer.jpg" class="profilePicture" />
-                <p class="textName"> Roberto Meyer </p>
-                <p class="textRole"> Diretor Comercial </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/camila-bazzo.jpg" class="profilePicture" />
-                <p class="textName"> Camila Bazzo </p>
-                <p class="textRole"> Consultora </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/sibila-silva.jpg" class="profilePicture" />
-                <p class="textName"> Sibila Silva </p>
-                <p class="textRole"> Consultora </p>
-              </div>
-
-              <div class="memebersSlides fade">
-                <img src="./images/members/felipe-martins.jpg" class="profilePicture" />
-                <p class="textName"> Felipe Cardoso Martins </p>
-                <p class="textRole"> Consultor </p>
-              </div>
-
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-
-            <div style="text-align: center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
-              <span class="dot" onclick="currentSlide(6)"></span>
-              <span class="dot" onclick="currentSlide(7)"></span>
-              <span class="dot" onclick="currentSlide(8)"></span>
-              <span class="dot" onclick="currentSlide(9)"></span>
-              <span class="dot" onclick="currentSlide(10)"></span>
-              <span class="dot" onclick="currentSlide(11)"></span>
-              <span class="dot" onclick="currentSlide(12)"></span>
-            </div>
-          </div>
-        </details>
-        <details id="mission">
-          <summary>Missão</summary>
-          <div class="detalhes">
-            <p class="textquemsomos">
-              Oferecer soluções na área de informática em saúde e bioinformática 
-              personalizadas, de excelência, promovendo o desenvolvimento pessoal, 
-              acadêmico e profissional de nossos membros.
-            </p>
-          </div>
-        </details>
-        <details id="vision">
-          <summary>Visão</summary>
-          <div class="detalhes">
-            <p class="textquemsomos">
-              Ser uma empresa reconhecida, que atinja todo seu potencial, 
-              e sirva de referência como prestadora de serviços na sua total 
-              área de atuação em âmbito nacional e internacional.
-            </p>
-          </div>
-        </details>
-        <details id="values">
-          <summary>Valores</summary>
-            <div class="detalhes">
-              <div class="values-container">
-                <div class="value-item" id="ethics-item">
-                  <p class="textquemsomos"> Ética </p>
-                  <img src="./images/values/Etica.svg" alt="">
-                </div>
-                <div class="value-item" id="quality-item">
-                  <p class="textquemsomos"> Qualidade </p>
-                  <img src="./images/values/Qualidade.svg" alt="">
-                </div>
-                <div class="value-item" id="innovation-item">
-                  <p class="textquemsomos"> Inovação </p>
-                  <img src="./images/values/Inovação.svg" alt="">
-                </div>
-                <div class="value-item" id="collaboration-item">
-                  <p class="textquemsomos"> Colaboração </p>
-                  <img src="./images/values/Colaboração.svg" alt="">
-                </div>
-                <div class="value-item" id="transparency-item">
-                  <p class="textquemsomos"> Transparência </p>
-                  <img src="./images/values/Transparencia.svg" alt="">
-                </div>
-            </div>
-          </div>
-        </details>
-      </section>
-
-      <hr id="divider" />
-
-      <section id="services">
-        <h1>Serviços</h1>
-        <!--<h3>Informática em saúde</h3>-->
-        <div id="eHealth">
-          <div class="card-services">
-            <h2 class="title"> Informática em saúde </h2>
-            <p class="text">
-              Consultoria e desenvolvimento de sistemas, desde sites
-              instituicionais até sistemas de registro eletrônico em saúde (S-RES).
-            </p>
-          </div>
-        </div>
-        <!--<h3>Bioinformática</h3>-->
-        <div id="bioinfo">
-          <div class="card-services">
-            <h2 class="title"> Bioinformática </h2>
-            <p class="text">
-              Elaboração de protocolos e soluções de bioinformática,
-              baseando-se nos objetivos do cliente e nos recursos disponíveis.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <hr id="divider" />
-
-      <section id="contact">
-        <div id="contact-info">
-          <h1>Endereço</h1>
-          <p>
-            R. Sarmento Leite, 245 - Centro Histórico, Porto Alegre - RS,
-            90050-170
-          </p>
-          <h1>Contatos</h1>
-          <ul>
-            <li>Email: biocodejr@ufcspa.edu.br</li>
-            <li>Instagram: @biocodejr</li>
-            <li>Linkedin:</li>
-          </ul>
-        </div>
-        <form action="https://formsubmit.co/biocodejr@ufcspa.edu.br" method="POST" class="form">
-          <input type="text" name="name" id="name" placeholder="Seu nome*" required/>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            ,
-            placeholder="Seu e-mail*"
-            required
-          />
-          <input
-            type="text"
-            name="subject"
-            id="subject"
-            placeholder="Assunto*"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Sua mensagem*"
-            required
-          ></textarea>
-          <input type="submit" value="Enviar mensagem" id="btn-submit" />
-        </form>
-      </section>
     </main>
+
+    <hr id="divider" />
+
+    <section id="about">
+      <h1>Quem somos?</h1>
+      <p id="descricao">
+        Somos a empresa júnior do curso de Informática Biomédica da
+        Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA).
+      </p>
+
+      <details id="history">
+        <summary>História</summary>
+        <div class="detalhes">
+          <p class="text-about-us">
+            Nascemos da vontade de preencher uma área ainda pouco explorada 
+            no mercado de trabalho, mas com um potencial enorme nos próximos anos.
+            Aspiramos tornar estudantes em profissionais qualificados nas áreas interdisciplinares
+            trabalhadas durante a graduação de Informática Biomédica, 
+            como a Biotecnologia, Bioinformática e Telessaúde.
+          </p>
+        </div>
+      </details>
+      <details id="members">
+        <summary>Membros</summary>
+        <div class="detalhes">
+          <div class="slideshow-container">
+            <div class="memebersSlides fade">
+              <img src="./images/members/guilherme-menezes.jpg" class="profilePicture" />
+              <p class="textName"> Guilherme Menezes </p>
+              <p class="textRole"> Presidente </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/caroline-bernich.jpg" class="profilePicture" />
+              <p class="textName"> Caroline Bernich </p>
+              <p class="textRole"> Vice-presidente </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/handriel-scheffer.jpg" class="profilePicture" />
+              <p class="textName"> Handriel Scheffer </p>
+              <p class="textRole"> Diretor Financeiro </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/alexandre-lemos.jpg" class="profilePicture" />
+              <p class="textName"> Alexandre Lemos </p>
+              <p class="textRole"> Diretor Administrativo </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/mariana-koerber.jpg" class="profilePicture" />
+              <p class="textName"> Mariana Koerber </p>
+              <p class="textRole"> Diretora de Marketing </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/leticia-godoi.jpg" class="profilePicture" />
+              <p class="textName"> Letícia Godoi </p>
+              <p class="textRole"> Diretora de Pessoas e Qualidade </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/vitoria-torrescasana.jpg" class="profilePicture" />
+              <p class="textName"> Vitória Torrescasana </p>
+              <p class="textRole"> Diretora de Projetos (Bioinformática) </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/rodrigo-duarte.jpg" class="profilePicture" />
+              <p class="textName"> Rodrigo Duarte </p>
+              <p class="textRole"> Diretor de Projetos (E-saúde) </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/roberto-meyer.jpg" class="profilePicture" />
+              <p class="textName"> Roberto Meyer </p>
+              <p class="textRole"> Diretor Comercial </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/camila-bazzo.jpg" class="profilePicture" />
+              <p class="textName"> Camila Bazzo </p>
+              <p class="textRole"> Consultora </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/sibila-silva.jpg" class="profilePicture" />
+              <p class="textName"> Sibila Silva </p>
+              <p class="textRole"> Consultora </p>
+            </div>
+
+            <div class="memebersSlides fade">
+              <img src="./images/members/felipe-martins.jpg" class="profilePicture" />
+              <p class="textName"> Felipe Cardoso Martins </p>
+              <p class="textRole"> Consultor </p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+          </div>
+        </div>
+      </details>
+      <details id="mission">
+        <summary>Missão</summary>
+        <div class="detalhes">
+          <p class="text-about-us">
+            Oferecer soluções na área de informática em saúde e bioinformática 
+            personalizadas, de excelência, promovendo o desenvolvimento pessoal, 
+            acadêmico e profissional de nossos membros.
+          </p>
+        </div>
+      </details>
+      <details id="vision">
+        <summary>Visão</summary>
+        <div class="detalhes">
+          <p class="text-about-us">
+            Ser uma empresa reconhecida, que atinja todo seu potencial, 
+            e sirva de referência como prestadora de serviços na sua total 
+            área de atuação em âmbito nacional e internacional.
+          </p>
+        </div>
+      </details>
+      <details id="values">
+        <summary>Valores</summary>
+          <div class="detalhes">
+            <div class="values-container">
+              <div class="value-item" id="ethics-item">
+                <p class="text-about-us"> Ética </p>
+                <img src="./images/values/Etica.svg" alt="">
+              </div>
+              <div class="value-item" id="quality-item">
+                <p class="text-about-us"> Qualidade </p>
+                <img src="./images/values/Qualidade.svg" alt="">
+              </div>
+              <div class="value-item" id="innovation-item">
+                <p class="text-about-us"> Inovação </p>
+                <img src="./images/values/Inovacao.svg" alt="">
+              </div>
+              <div class="value-item" id="collaboration-item">
+                <p class="text-about-us"> Colaboração </p>
+                <img src="./images/values/Colaboracao.svg" alt="">
+              </div>
+              <div class="value-item" id="transparency-item">
+                <p class="text-about-us"> Transparência </p>
+                <img src="./images/values/Transparencia.svg" alt="">
+              </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <hr id="divider" />
+
+    <section id="services">
+      <h1>Serviços</h1>
+      <!--<h3>Informática em saúde</h3>-->
+      <div id="eHealth">
+        <div class="card-services">
+          <h2 class="title"> Informática em saúde </h2>
+          <p class="text">
+            Consultoria e desenvolvimento de sistemas, desde sites
+            instituicionais até sistemas de registro eletrônico em saúde (S-RES).
+          </p>
+        </div>
+      </div>
+      <!--<h3>Bioinformática</h3>-->
+      <div id="bioinfo">
+        <div class="card-services">
+          <h2 class="title"> Bioinformática </h2>
+          <p class="text">
+            Elaboração de protocolos e soluções de bioinformática,
+            baseando-se nos objetivos do cliente e nos recursos disponíveis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr id="divider" />
+
+    <section id="contact">
+      <div id="contact-info">
+        <h1>Endereço</h1>
+        <p>
+          R. Sarmento Leite, 245 - Centro Histórico, Porto Alegre - RS,
+          90050-170
+        </p>
+        <h1>Contatos</h1>
+        <ul>
+          <li>Email: biocodejr@ufcspa.edu.br</li>
+          <li>Instagram: @biocodejr</li>
+          <li>Linkedin:</li>
+        </ul>
+      </div>
+      <form action="https://formsubmit.co/biocodejr@ufcspa.edu.br" method="POST" class="form">
+        <input type="text" name="name" id="name" placeholder="Seu nome*" required/>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          ,
+          placeholder="Seu e-mail*"
+          required
+        />
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Assunto*"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Sua mensagem*"
+          required
+        ></textarea>
+        <input type="submit" value="Enviar mensagem" id="btn-submit" />
+      </form>
+    </section>
 
     <footer>
       <div id="footericons">

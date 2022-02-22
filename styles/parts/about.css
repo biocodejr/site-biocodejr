@@ -47,7 +47,7 @@ summary:hover {
   margin-right: 20px;
 }
 
-.textquemsomos {
+.text-about-us {
   color: white;
   text-align: left;
   font-style: normal;
@@ -187,5 +187,15 @@ summary:hover {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #about {
+    padding: 2.5% 10%;
+  }
+
+  .text-about-us {
+    padding: 2.5%;
   }
 }
