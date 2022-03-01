@@ -1,5 +1,5 @@
 .navtop {
-  background-color: var(--dark-blue);
+  background-color: #FFF;
   padding: 5px;
   font-family: "Ruda", sans-serif;
 }
@@ -23,6 +23,10 @@
 .navtop #navicon {
   width: 5em;
   height: 5em;
+}
+
+#navlogo a {
+  color: var(--dark-blue);
 }
 
 .active {
@@ -109,7 +113,7 @@
 .links li a {
   font-weight: normal;
   font-size: 1em;
-  color: #fff;
+  color: var(--dark-blue);
   cursor: pointer;
   transition: 0.25s;
 }
@@ -126,7 +130,7 @@
 }
 
 #contact-link:hover {
-  background-color: var(--dark-blue);
+  background-color: #FFF;
 }
 
 @media screen and (max-width: 760px){
@@ -158,12 +162,22 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
+
+    background-color: var(--dark-blue);
   }
 
   .navtop #navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .links li a {
+    color: #FFF;
+  }
+
+  #contact-link:hover {
+    background-color: var(--dark-blue);
   }
 
   .navtop #hamburguer {

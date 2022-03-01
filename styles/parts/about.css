@@ -121,6 +121,11 @@ summary:hover {
   transition: background-color 0.6s ease;
 }
 
+#mission-icon-web,
+#vision-icon-web {
+  display: none;
+}
+
 .values-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -197,5 +202,52 @@ summary:hover {
 
   .text-about-us {
     padding: 2.5%;
+  }
+
+  .profilePicture {
+    width: 10em;
+    margin: 1.5em auto 1em -5em;
+  }
+
+  .textName,
+  .textRole {
+    font-size: 1em;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    width: auto;
+    margin-top: -22px;
+    padding: 25px 100px 25px;
+    font-size: 1.5em;
+  }
+
+  #mission-icon-web,
+  #vision-icon-web {
+    display: block;
+    padding: 1em 2em 1em 0;
+  }
+
+  #mission .detalhes,
+  #vision .detalhes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .values-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+  }
+
+  .value-item {
+    flex-direction: column-reverse;
+  }
+
+  .value-item p {
+    padding: 0.5em 0;
   }
 }
