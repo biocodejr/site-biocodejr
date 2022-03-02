@@ -27,9 +27,15 @@
   background-color: var(--dark-blue);
   width: 20rem;
   height: 12rem;
-
   border-radius: 10px;
+  box-shadow: #0000004a 6px 7px 6px 0px;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 
 #services div:hover {
   background-color: var(--pink);
