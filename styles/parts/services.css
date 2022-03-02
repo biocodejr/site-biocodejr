@@ -25,10 +25,14 @@
 #services div {
   color: white;
   background-color: var(--dark-blue);
-  width: 16rem;
-  height: auto;
+  width: 20rem;
+  height: 12rem;
 
   border-radius: 10px;
+}
+
+#services div:hover {
+  background-color: var(--pink);
 }
 
 .title {
@@ -49,4 +53,32 @@
   justify-content: center;
   color: white;
   padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  
+  #services {
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+  #services h1{
+    margin-top: -300px;
+  }
+ 
+#services >div#eHealth{
+ 
+  margin-left: -150px;
+}
+   
+
+}
+
+@media screen and (min-width: 922px) {
+  #services h1{
+    margin-top: -300px;
+    margin-left: -50px;
+  }
 }
