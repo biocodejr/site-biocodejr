@@ -188,6 +188,14 @@
     height: 5em;
     width: 5em;
   }
+
+  #navlogo .active {
+    display: none;
+  }
+
+  #contact-link {
+    background-color: var(--dark-blue);
+  }
 }
 
 /* @media screen and (min-width: 1000px){
