@@ -37,11 +37,28 @@
   #banner {
     flex-direction: row;
     align-items: center;
-    padding: 5% 10%;
+    justify-content: center;
+    padding: 2% 10%;
   }
   
   .logo {
     width: 50%;
+  }
+
+  #maincontent {
+    text-align: left;
+    font-family: "Ruda", sans-serif;
+    color: var(--dark-blue);
+    font-size: 2rem;
+    margin: 1em 1em;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  #maincontent {
+    font-size: 4rem;
+    font-weight: bold;
   }
 }
 

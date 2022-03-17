@@ -1,3 +1,15 @@
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form{
+  width: 500px;
+}
+
 #contact p, ul{
   font-family: "Ruda", sans-serif;
   color: var(--dark-blue);
@@ -48,4 +60,16 @@ form #btn-submit {
 
 form #btn-submit:hover {
   background-color: rgba(7, 26, 59, 0.90);
+}
+
+@media screen and (max-width: 760px){
+  #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form{
+    width: auto;
+  }
 }
