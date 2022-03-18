@@ -190,7 +190,7 @@
   }
 
   #navlogo .active {
-    display: none;
+    color: #FFF;
   }
 
   #contact-link {

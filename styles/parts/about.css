@@ -128,7 +128,7 @@ summary:hover {
 
 .values-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 32% 33%;
   grid-template-rows: auto auto auto;
   padding: 1em;
 }
