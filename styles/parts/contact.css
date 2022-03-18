@@ -62,6 +62,11 @@ form #btn-submit:hover {
   background-color: rgba(7, 26, 59, 0.90);
 }
 
+.form textarea {
+  resize: vertical;
+  min-height: 3em;
+}
+
 @media screen and (max-width: 760px){
   #contact{
     display: flex;
