@@ -1,5 +1,5 @@
 .navtop {
-  background-color: #FFF;
+  background-color: var(--dark-blue);
   padding: 5px;
   font-family: "Ruda", sans-serif;
 }
@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 
-.navtop{
+.navtop {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -26,7 +26,7 @@
 }
 
 #navlogo a {
-  color: var(--dark-blue);
+  color: white;
 }
 
 .active {
@@ -113,17 +113,17 @@
 .links li a {
   font-weight: normal;
   font-size: 1em;
-  color: var(--dark-blue);
+  color: white;
   cursor: pointer;
   transition: 0.25s;
 }
 
 .links li a:hover {
-  color: var(--pink);
+  color: var(--light-pink);
 }
 
 #contact-link {
-  background-color: var(--pink);
+  background-color: var(--light-pink);
   border-radius: 10px;
   padding: 0.5em;
   transition: 0.25s;
@@ -163,7 +163,7 @@
     align-items: stretch;
     justify-content: space-between;
 
-    background-color: var(--dark-blue);
+    /* background-color: var(--dark-blue); */
   }
 
   .navtop #navbar {
@@ -172,9 +172,9 @@
     justify-content: space-between;
   }
 
-  .links li a {
+  /* .links li a {
     color: #FFF;
-  }
+  } */
 
   #contact-link:hover {
     background-color: var(--dark-blue);
@@ -189,9 +189,9 @@
     width: 5em;
   }
 
-  #navlogo .active {
+  /* #navlogo .active {
     color: #FFF;
-  }
+  } */
 
   #contact-link {
     background-color: var(--dark-blue);
