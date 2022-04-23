@@ -26,7 +26,7 @@
   color: white;
   background-color: var(--dark-blue);
   width: 20rem;
-  height: 26rem;
+  height: 26.5rem;
   margin-top: 2em;
   border-radius: 10px;
   box-shadow: #0000004a 6px 7px 6px 0px;
@@ -71,5 +71,17 @@
   
   .card-services {
     margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .card-services {
+    height: 30rem !important;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .card-services {
+    height: fit-content !important;
   }
 }
