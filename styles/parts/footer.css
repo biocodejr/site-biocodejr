@@ -25,6 +25,10 @@ footer a.icon {
   padding: 2.5px;
 }
 
+footer a.icon:hover {
+  color: var(--light-pink);
+}
+
 footer #copyright {
   font-size: 0.8em;
   font-family: "Ruda", sans-serif;

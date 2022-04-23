@@ -1,16 +1,15 @@
-#contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 5%;
-    padding-bottom: 5%;
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.form{
-  width: 500px;
+.form {
+  width: auto;
 }
 
-#contact p, ul{
+#contact p,
+ul {
   font-family: "Ruda", sans-serif;
   color: var(--dark-blue);
 }
@@ -59,7 +58,7 @@ form #btn-submit {
 }
 
 form #btn-submit:hover {
-  background-color: rgba(7, 26, 59, 0.90);
+  background-color: rgba(7, 26, 59, 0.9);
 }
 
 .form textarea {
@@ -67,14 +66,16 @@ form #btn-submit:hover {
   min-height: 3em;
 }
 
-@media screen and (max-width: 760px){
-  #contact{
+@media screen and (min-width: 760px) {
+  #contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
-  .form{
-    width: auto;
+  .form {
+    width: 500px;
   }
 }

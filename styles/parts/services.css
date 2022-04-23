@@ -1,13 +1,5 @@
 #services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   font-family: "Ruda", sans-serif;
-}
-
-#services div {
-  margin-top: 1em;
 }
 
 #services h3 {
@@ -22,23 +14,34 @@
   padding-bottom: 6px;
 }
 
-#services div {
+#services #eHealth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#services .card-services {
   color: white;
   background-color: var(--dark-blue);
   width: 20rem;
-  height: 12rem;
+  height: 26rem;
+  margin-top: 2em;
   border-radius: 10px;
   box-shadow: #0000004a 6px 7px 6px 0px;
-  display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
-
-#services div:hover {
+#services .card-services:hover {
   background-color: var(--pink);
+}
+
+.card-icon {
+  display: flex !important;
+  text-align: center;
+  justify-content: center;
+  font-size: 5rem;
+  margin-top: 1.5rem;
 }
 
 .title {
@@ -62,29 +65,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   #services {
-    
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
- }
-  #services h1{
-    margin-top: -300px;
+    padding: 5% 10%;
   }
- 
-#services >div#eHealth{
- 
-  margin-left: -150px;
-}
-   
-
-}
-
-@media screen and (min-width: 922px) {
-  #services h1{
-    margin-top: -300px;
-    margin-left: -50px;
+  
+  .card-services {
+    margin-right: 2rem;
   }
 }
