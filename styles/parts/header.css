@@ -1,8 +1,18 @@
+header{
+  padding-bottom: 7%;
+}
+
+
 .navtop {
   background-color: var(--dark-blue);
   padding: 5px;
   font-family: "Ruda", sans-serif;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
 }
+
 
 .navtop a {
   text-decoration: none;
