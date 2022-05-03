@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;900&display=swap");
+
+body {
+    margin: 0;
+}
+
+.message-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+  font-family: "Ruda", sans-serif;
+  font-size: 1em;
+  margin: 0.5em 0;
+  width: 90%;
+  text-align: center;
+}

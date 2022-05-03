@@ -1,14 +1,24 @@
+header{
+  padding-bottom: 7%;
+}
+
+
 .navtop {
-  background-color: #FFF;
+  background-color: var(--dark-blue);
   padding: 5px;
   font-family: "Ruda", sans-serif;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
 }
+
 
 .navtop a {
   text-decoration: none;
 }
 
-.navtop{
+.navtop {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -26,7 +36,7 @@
 }
 
 #navlogo a {
-  color: var(--dark-blue);
+  color: white;
 }
 
 .active {
@@ -113,17 +123,17 @@
 .links li a {
   font-weight: normal;
   font-size: 1em;
-  color: var(--dark-blue);
+  color: white;
   cursor: pointer;
   transition: 0.25s;
 }
 
 .links li a:hover {
-  color: var(--pink);
+  color: var(--light-pink);
 }
 
 #contact-link {
-  background-color: var(--pink);
+  background-color: var(--light-pink);
   border-radius: 10px;
   padding: 0.5em;
   transition: 0.25s;
@@ -134,6 +144,10 @@
 }
 
 @media screen and (max-width: 760px){
+  header{
+    padding-bottom: 30%;
+  }
+
   .navtop label span{
     display: block;
   }
@@ -162,18 +176,12 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-
-    background-color: var(--dark-blue);
   }
 
   .navtop #navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .links li a {
-    color: #FFF;
   }
 
   #contact-link:hover {
@@ -189,17 +197,8 @@
     width: 5em;
   }
 
-  #navlogo .active {
-    display: none;
-  }
-
   #contact-link {
     background-color: var(--dark-blue);
   }
 }
 
-/* @media screen and (min-width: 1000px){
-  .navtop #navlinks {
-    width: 25%;
-  }
-} */
