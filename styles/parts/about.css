@@ -103,9 +103,11 @@ summary:hover {
 .profilePicture {
   position: relative;
   left: 50%;
-  margin: 1.5em auto 1em -3.5em;
-  width: 7em;
-  height: auto;
+  margin: 1.5em auto 1em -4em;
+  width: 8em;
+  height: 8em;
+  object-fit: cover;
+  object-position: center;
   border-radius: 100%;
 }
 
@@ -219,8 +221,9 @@ summary:hover {
   }
 
   .profilePicture {
-    width: 10em;
-    margin: 1.5em auto 1em -5em;
+    width: 11em;
+    height: 11em;
+    margin: 1.5em auto 1em -5.5em;
   }
 
   .textName,
